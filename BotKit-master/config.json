@@ -1,0 +1,41 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : "",
+        "url": "http://localhost:8003"
+    },
+    "validations": {
+        "leastNodeVersion": 10
+    },
+    "credentials": {
+        "apikey": "xNB/aTIJJhcZ3gMbbj4w2qG1ayXURyEPCfcJ82FtvXY=",
+        "appId": "cs-2d8e29a7-e57b-593c-ad60-4c88c0d8b341",
+        "st-67890":{
+            "apikey": "xNB/aTIJJhcZ3gMbbj4w2qG1ayXURyEPCfcJ82FtvXY=",
+            "appId": "cs-2d8e29a7-e57b-593c-ad60-4c88c0d8b341"
+        }
+    },
+    "jwt": {
+        "jwtAlgorithm": "HS256",
+        "jwt-expiry": 60,
+        "st-67890":{
+            "jwtAlgorithm": "HS512",
+            "jwt-expiry": 60
+        }
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
